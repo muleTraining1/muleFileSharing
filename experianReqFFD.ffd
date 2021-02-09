@@ -1,0 +1,60 @@
+from: FLATFILE
+id: 'extraData'
+name: 'extraData'
+values:
+- {name: 'extraData', type: String, length: 39}
+id: 'connectCheck'
+name: 'connect check'
+values:
+- {name: 'recordId', type: String, length: 4}
+- {name: 'recordLength', type: String, length: 4}
+- {name: 'inputType', type: String, length: 1}
+- {name: 'idMatchCondition', type: String, length: 1}
+- {name: 'reserved', type: String, length: 1}
+- {name: 'creditClassCode', type: String, length: 1}
+- {name: 'highRiskAddresAlert', type: String, length: 1}
+- {name: 'additionalNamesAndAddresesForIdMatchConditionC', type: String, length: 1}
+- {name: 'additionalNamesAndAddresesForIdMatchConditionD', type: String, length: 1}
+- {name: 'additionalNamesAndAddresesForIdMatchConditionE', type: String, length: 1}
+- {name: 'score', type: String, length: 1}
+- {name: 'fullCreditReportDescription', type: String, length: 1}
+- {name: 'publicRecordAlertBankruptcy', type: String, length: 1}
+- {name: 'publicRecordAlertJudgment', type: String, length: 1}
+- {name: 'publicRecordAlerttaxLien', type: String, length: 1}
+- {name: 'publicRecordAlertBankruptcyDismissed', type: String, length: 1}
+- {name: 'publicRecordAlertJudgmentSatisfied', type: String, length: 1}
+- {name: 'publicRecordAlerttaxLienReleased', type: String, length: 1}
+- {name: 'lengthOfOriginalInputName', type: String, length: 2}
+- {name: 'originalInputNameText', type: String, length: 5}
+- {name: 'lengthOfCustomerMessage', type: String, length: 2}
+- {name: 'customerMessage', type: String, length: 10}
+- {name: 'endOfSegmentMark', type: String, length: 2}
+id: 'encryptedPin'
+name: 'encrypted PIN'
+values:
+- {name: 'recordId', type: String, length: 3}
+- {name: 'recordLenght', type: String, length: 4}
+- {name: 'encryptedPin', type: String, length: 15}
+- {name: 'checksum', type: String, length: 2}
+- {name: 'verificationIndicator', type: String, length: 1}
+- {name: 'reversedForFutureUse', type: String, length: 8}
+- {name: 'endOfSegmentMark', type: String, length: 1}
+id: 'errorMessage'
+name: 'error message'
+values:
+- {name: 'recordId', type: String, length: 3'}
+- {name: 'recordLength', type: String, length: 3}
+- {name: 'errorCode', type: String, length: 3}
+- {name: 'actionIndicator', type: String, length: 1}
+- {name: 'moduleIdent', type: String, length: 3}
+id: 'socialSecurityNumber'
+name: 'social Security Number'
+values:
+- {name: 'recordId', type: String, length: 3}
+- {name: 'recordLength', type: String, length: 4}
+- {name: 'ssnVerificationIndicator', type: String, length: 1}
+- {name: 'socialSecurityNumber', type: String, length: 9}
+- {name: 'socialSecurityNumberMatchSubsegmentId', type: String, length: 2}
+- {name: 'socialSecurityNumberMatchSubsegmentLength', type: String, length: 2}
+- {name: 'nineSSNMatchIndicators', type: String, length: 9}
+- {name: 'endOfSegmentMark', type: String, length: 1}
