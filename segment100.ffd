@@ -1,0 +1,20 @@
+id: 'headerRecordError'
+name: 'header record error'
+values:
+- {name: 'recordId', type: String, length: 4, tagValue: '@100'}
+- {name: 'recordLength', type: String, length: 3}
+- {name: 'hsotId', type: String, length: 1}
+- {name: 'applicationId', type: String, length: 1}
+- {name: 'reportDate', type: Date, length: 6}
+- {name: 'reportTime', type: DateTime, length: 6}
+- {name: 'reportType', type: String, length: 1}
+- {name: 'preamble', type: String, length: 4}
+- {name: 'regionCode', type: String, length: 1}
+- {name: 'versionNo', type: String, length: 2}
+- {name: 'surname', type: String, length: 10}
+- {name: 'firstName', type: String, length: 3}
+- {name: 'mKeywordLength', type: String, length: 2}
+- {name: 'mKeywordText', type: String, length: 5}
+- {name: 'y2kReportDateSubsegmentIndicator', type: Date, length: 2}
+- {name: 'y2kSubsegmentLength', type: String, length: 2}
+- {name: 'y2kReportDate', type: Date, length: 8}
