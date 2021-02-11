@@ -1,0 +1,14 @@
+Request
+-----------
+
+<?xml version="1.0" encoding="UTF-8"?>
+<NetConnectRequest
+xmlns="http://www.experian.com/NetConnect"><EAI>S2GWLUHH</EAI><DBHost>CIS</DBHost><ReferenceId>ACC3001687100382133154549704607329252020921KEVIN WADE</ReferenceId><Request
+version="1.0" xmlns="http://www.experian.com/WebDelivery"><Products><CustomSolution><Subscriber><Preamble>TBD3</Preamble><OpInitials>00</OpInitials><SubCode>2907064</SubCode></Subscriber><PrimaryApplicant><Name><Surname>WADE</Surname><First>KEVIN</First></Name><SS120N>093729537</SSN><CurrentAddress><Street>2908 JOYCE LA</Street><City>MERRICK</City><State>NY</State><Zip>11566</Zip></CurrentAddress><PreviousAddress><Street/><City/><State/><Zip/></PreviousAddress></PrimaryApplicant><AddOns><CustomRRDashKeyword>PSEGLI</CustomRRDashKeyword></AddOns><OutputType><ARF><ARFVersion>06</ARFVersion></ARF></OutputType><Vendor><VendorNumber>U41</VendorNumber></Vendor><Options><ReferenceNumber>4607329252</ReferenceNumber></Options></CustomSolution></Products></Request></NetConnectRequest>
+
+
+Response
+--------
+
+
+<?xml version="1.0" standalone="no"?><NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse"><CompletionCode>0000</CompletionCode><ReferenceId>ACC3001687100382133154549704607329252020921KEVIN WADE</ReferenceId><TransactionId>1904706225</TransactionId><HostResponse><![CDATA[1100038020321075906TNJ106104607329252@1110039AC 1XN  XXXXXXXX10WADE,KEVIN01 @1200034PJRWU0853253445C3         @3220018 000000000@335003812KEVIN R WADE1987E61206301987@3360075112001211041600834S        3838 COUNTRY DR  /PLAINVIEW NY 118033952@36100207708ID MATCH@382007299        001 C2261101200002011012000000C31219861988C4120103    @950001600900350@]]></HostResponse></NetConnectResponse>
